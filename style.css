@@ -1,0 +1,21 @@
+:root {
+  --clr-bg: #30313a;
+  --clr-fg: #ffe8ec;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--clr-bg);
+}
+
+canvas {
+  display: block;
+}
